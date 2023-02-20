@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #10F3EA;
+}
+.logo-land {
+    background-color: white;
+    box-shadow: 2px 2px 4px #020f0f;
+}
+.logo-menu img {
+    padding-left: 120px;
+}
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    padding-right: 40px;
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    padding:10px ;
+}
+.menu li a {
+    text-decoration: none;
+    
+}
+.holand {
+    padding-left: 20%;
+    padding-bottom: 30px;
+}
+.holand li {
+    padding: 0 50px;
+}
+.section1{
+   
+    margin: 10%;
+}
+.section1 {
+    text-align: center;
+    font-size: 20px;
+}
+.drop-down {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.search-btn {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.locat {
+    width: 60px;
+    height: 30px;
+    
+}
+.locatsear {
+    background-color: white;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid rgb(163, 29, 29);
+}
+.welc {
+    text-align: justify;
+    padding: 40px;
+}
+
+.aroms h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: Tahoma;
+    font-family: 25px;
+} 
+.aroms-img {
+    display: block;
+    align-items: center;
+}
+/* this is the section for available room */
+.aroms-img {
+    width: 600px;
+}
+.everyroom {
+    margin: 10%;
+    display: flex;
+}
+.veryroom1 {
+    margin: auto;
+}
+.veryroom1, .veryroom2 h3 {
+    text-align: center;
+}
+/* this section is for contact form */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
+input[type="submit"]:active {
+    background-color: #3e8e41;
+}
+  
+textarea {
+    height: 200px;
+}  
+
+/* keyframe slides*/
+.img-slider img {
+    height: 720px;
+    width: 1080px;
+  }
+   h2 {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 45px;
+  }
+  @keyframes slide {
+    0% {
+      left: 0px;
+    }
+    15% {
+      left: 0px;
+    }
+    20% {
+      left: -1080px;
+    }
+    32% {
+      left: -1080px;
+    }
+    35% {
+      left: -2160px;
+    }
+    47% {
+      left: -2160px;
+    }
+    50% {
+      left: -3240px;
+    }
+    63% {
+      left: -3240px;
+    }
+    66% {
+      left: -4320px;
+    }
+    79% {
+      left: -4320px;
+    }
+    82% {
+      left: -5400px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+.img-slider {
+  display: flex;
+  float: left;
+  position: relative;
+  width: 1080px;
+  height: 720px;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transition-duration: 3s;
+}
+.section1 {
+    width: 1080px;
+    overflow: hidden;
+  
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+/* this section is for footer */
+footer {
+    background-color: white;
+    padding-top: 20%;
+    text-align: center;
+    margin: 0;
+    box-shadow: 6px 6px 8px #020f0f;
+}
+.all-footer {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.links a {
+    display: block;
+    text-decoration: none;
+}
+
+/* this section is for the Signin form */
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* this section is for examples   */
