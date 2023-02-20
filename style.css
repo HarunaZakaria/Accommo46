@@ -50,7 +50,7 @@ body {
 }
 
 .search-btn {
-    width: 200px;
+    width: 100px;
     background-color: #4CAF50;
     color: white;
     border-radius: 4px;
@@ -296,4 +296,67 @@ button:hover {
     background-color: #45a049;
 }
 
-/* this section is for examples   */
+
+/* this part is for media quiries */
+@media (min-width: 321px) and (max-width: 768px) {
+    body {
+        background-color: #3e8e41;
+    }
+    .logo-menu img {
+        padding-left: 10px;
+    }
+    .holand {
+        padding-left: 1%;
+        padding-bottom: 10px;
+    }
+    .holand li {
+        padding: 0 20px;
+    }
+    .section1{
+   
+        margin: auto;
+    }
+   .section1 > h2{
+    margin-left:10px; 
+    } 
+    .everyroom {
+        display: block;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .aroms-img {
+        width: 400px;
+    }
+    .welc {
+        text-align: start;
+        padding: 1%;
+    }
+    .drop-down {
+        display: block;
+        justify-content: left;
+        margin: 1%;
+    }
+    .search-btn {
+        width: 100px;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100px;
+        background-color: #f9f9f9;
+        margin-top: 5px;
+        border-radius: 4px;
+    }
+    .welcome h2 {
+        margin: 1px;
+        color: black;
+        font-size: small;
+        padding-left: 0%;
+    }
+}
+  
