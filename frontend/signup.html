@@ -16,7 +16,10 @@
     <body>
         <section class="header">
             <nav>
-                <a href="index.html"><img src="images/logo.png" alt="logo image"></a>
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="logo image"></a>
+                    <h4>we give you the accommodation you deserve </h4>
+                </div>
                 <div class="nav-links" id="navLinks">
                     <ul>
                         <li><a href="signin.html">Sign In</a></li>
@@ -27,26 +30,40 @@
             </nav>
             <div class="nav_links" id="nav-Links">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Contact us</a></li>
                     <li><a href="#">Community</a></li>
                 </ul>
             </div>
-        </section> 
-        <form>
-            <h2>Sign In for Accommo46</h2>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter username" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter password" required>
-            <button type="submit">Login</button>
-            <div class="no-account"> 
-                <p>Don't have an account:</p>
-                <a href="signup.html">Sign up here</a>
-            </div>
-          </form>           
+        </section>
+        <div>
+            <h2>Sign Up For Accommo46</h2>
+        </div>
+        <form action="" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="name">School:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <button type="submit">Sign Up</button>
+        <div class="no-account"> 
+            <p>Have an account already:</p>
+            <a href="signin.html">Sign In here</a>
+        </div>
+        </form>
+            
         <footer id="footer">
             <div class="all-footer">
                 <div class="footer-links">
