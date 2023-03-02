@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #10F3EA;
+}
+.header{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/3.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header h4 {
+    color: #F10E17;
+    font-size: smaller;
+    padding-bottom: 40px;
+
+}
+
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #F10E17;
+    text-decoration: none;
+    font-size: 20PX;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #10F3EA;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav_links ul {
+    display:flex;
+    padding: 2% 6%;
+    justify-content: center;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav_links ul li a {
+    color: #F10E17;
+    text-decoration: none;
+    font-size: 20PX;
+}
+
+.nav_links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #10F3EA;
+    display: block;
+    margin: auto;
+}
+
+.nav_links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box h1 {
+    text-align: center;
+    color: #F10E17;
+    padding: 15px;
+}
+
+.text-box p {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #F10E17;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    max-width: 400px;
+    background-color: #10F3EA;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border: #F10E17 2px solid;
+    padding: 10px 20px;
+    justify-content: space-between;
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: 2px 2px 4px #020f0f;
+}
+
+.search input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px;
+    font-size: 20px;
+    color: #F10E17;
+}
+
+.dropdown-content  {
+    color: #F10E17;
+    background-color: #10F3EA;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dropbtn {
+    border: 0;
+    background-color: #10F3EA;
+    color: #F10E17;
+    width: 200px;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: #F10E17;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.search button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #F10E17;
+}
+
+.rooms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.right-rooms, .left-rooms {
+    padding-top: 70px;
+}
+
+.right-rooms, .left-rooms h2{
+    text-align: center;
+    color: #F10E17;
+}
+
+.right-rooms img, .left-rooms img {
+    width: 500px;
+    border: #F10E17 solid 10px;
+    box-shadow: 4px 4px 6px #020f0f;
+}
+
+.right-rooms img {
+    border-top-right-radius: 45px;
+}
+
+.left-rooms img {
+    border-top-left-radius: 45px;   
+}
+
+.right-rooms p, .left-rooms p {
+    color: #F10E17;
+    text-align: start;
+}
+
+#footer {
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#footer p {
+    text-align: center;
+    color: #10F3EA;
+    padding: 30px;
+}
+
+.all-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.footer-links  {
+    padding-right: 30px;
+}
+
+.footer-links h3 {
+    text-align: center;
+    color: #10F3EA;
+}
+
+.llinks {
+    padding-bottom: 130px;
+}
+
+.llinks a {
+    display: block;
+    padding: 10px;
+    color: #F10E17;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icons {
+    padding-bottom: 230px;
+}
+.social-icons h3 {
+    text-align: center;
+    color: #10F3EA;
+}
+
+.flinks a{
+    display: block;
+    padding: 10px;
+    color: #F10E17;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+.contact-info {
+    padding-bottom: 230px;
+}
+
+.contact-info h3 {
+    text-align: center;
+    color: #10F3EA;
+}
+
+.contact-info p {
+    display: block;
+    padding: 10px;
+    color: #F10E17;
+    align-items: center;
+}
+
+.contact-more a {
+    display: block;
+    padding: 10px;
+    color: #F10E17;
+    align-items: center;
+    text-decoration: none;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #10F3EA;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #F10E17;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #F10E17;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+
+@media (min-width: 321px) and (max-width: 768px) {
+   body {
+    background-color: rgb(253, 247, 247);
+   }
+
+   .text-box p {
+    padding: 25px;
+    text-align: justify;
+}
+
+
+.search-btn {
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.text-box p {
+    border: #10F3EA 2px solid;
+    margin: 30px;
+    border-bottom-right-radius: 35px;
+}
+
+.rooms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-rooms, .left-rooms {
+    padding-top: 80px;
+}
+
+.right-rooms img, .left-rooms img {
+    width: 300px;
+    border: #F10E17 solid 2px;
+    box-shadow: 4px 4px 6px #020f0f;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #10F3EA;
+    border-radius: 5px;
+}
+
+}
