@@ -389,6 +389,55 @@ h2 {
     padding: 30px;
 }
 
+.about {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.about p {
+    text-align: start;
+    margin: 40px;
+    padding: 50px;
+    border-bottom-right-radius: 40px;
+    border: #F10E17 solid 2px;
+}
+.about p, a {
+    text-decoration: none;
+}
+
+.nav__links ul {
+    display:flex;
+    padding: 2% 6%;
+    justify-content: center;
+}
+
+.nav__links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav__links ul li a {
+    color: #F10E17;
+    text-decoration: none;
+    font-size: 20PX;
+}
+
+.nav__links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #F10E17;
+    display: block;
+    margin: auto;
+}
+
+.nav__links ul li:hover::after{
+    width: 100%;
+}
+
+
 @media (min-width: 321px) and (max-width: 768px) {
    body {
     background-color: rgb(253, 247, 247);
